@@ -10,7 +10,8 @@ print("=============================")
 print("Financial Data Analyzer")
 print("=============================")
 
-filename = "sample_data.csv"
+filename = input("분석할 CSV 파일명을 입력하세요: ").strip()
+
 
 try:
 
